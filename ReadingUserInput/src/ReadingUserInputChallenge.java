@@ -13,7 +13,7 @@ import java.util.Scanner;
 //-Use a counter variable for counting valid numbers.
 //-Close the scanner after you donÅft need it anymore.
 //-Create a project with the name ReadingUserInputChallenge.
-public class Challenge {
+public class ReadingUserInputChallenge {
     public static void main(String[] args) {
         int count = 0;
         Scanner sc = new Scanner(System.in);

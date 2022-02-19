@@ -1,2 +1,18 @@
-package PACKAGE_NAME;public class DiagonalStar {
+public class DiagonalStar {
+    public static void printSquareStar(int number) {
+        if (number < 5) {
+            System.out.println("Invalid Value");
+            return;
+        }
+        for (int i = 0; i < number; i++) {
+            for (int j = 0; j < number; j++) {
+                if (i == 0 || j == 0 || i == number - 1 || j == number - 1 || i == j || i == number - 1 - j) {
+                    System.out.print("*");
+                    continue;
+                }
+                System.out.print(" ");
+            }
+            System.out.println();
+        }
+    }
 }
