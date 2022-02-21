@@ -1,5 +1,8 @@
-package challenge;
+package com.timbuchalka;
 
+/**
+ * Created by dev on 18/09/15.
+ */
 public class Song {
     private String title;
     private double duration;
@@ -15,9 +18,6 @@ public class Song {
 
     @Override
     public String toString() {
-        return "Song{" +
-            "title='" + title + '\'' +
-            ", duration=" + duration +
-            '}';
+        return this.title + ": " + this.duration;
     }
 }

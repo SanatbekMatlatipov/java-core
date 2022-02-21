@@ -1,7 +1,7 @@
 package uz.sanatbek;
 
 
-public class BedRoom {
+public class OfficeRoom {
     Desk desk;
     Shelf shelf;
     PC pc;
@@ -10,7 +10,7 @@ public class BedRoom {
     int length;
     int height;
 
-    public BedRoom(Desk desk, Shelf shelf, PC pc, RoomElectricityItems electricity, int width, int length, int height) {
+    public OfficeRoom(Desk desk, Shelf shelf, PC pc, RoomElectricityItems electricity, int width, int length, int height) {
         this.desk = desk;
         this.shelf = shelf;
         this.pc = pc;
@@ -19,7 +19,5 @@ public class BedRoom {
         this.length = length;
         this.height = height;
     }
-
-
 
 }

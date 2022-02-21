@@ -1,7 +1,7 @@
 package challenge;
 
-public class NationalBasketballAssociation extends League {
-    public NationalBasketballAssociation(String name) {
-        super(name);
+public class BasketballTeam extends Team {
+    public BasketballTeam(String name, Integer score) {
+        super(name, score);
     }
 }

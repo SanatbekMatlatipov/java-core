@@ -1,2 +1,8 @@
-package uz.sanatbek;public class Main {
+package uz.sanatbek;
+
+public class Main {
+    public static void main(String[] args) {
+        MyWindow myWindow = new MyWindow("Complete Java");
+        myWindow.setVisible(true);
+    }
 }

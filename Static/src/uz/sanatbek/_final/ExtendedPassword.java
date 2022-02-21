@@ -1,2 +1,10 @@
-package uz.sanatbek._final;public class ExtendedPassword {
+package uz.sanatbek._final;
+
+public class ExtendedPassword extends Password{
+    private int decryptedPassword;
+
+    public ExtendedPassword(int password) {
+        super(password);
+        this.decryptedPassword = password;
+    }
 }
