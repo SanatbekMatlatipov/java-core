@@ -7,6 +7,20 @@ public class Account {
     private String customerEmail;
     private String customerPhone;
 
+    public Account () {
+        this("56789", 2.50, "Default Name", "Default Email", "Default Phone");
+        System.out.println("Empty constructor called");
+    }
+
+    public Account(String number, double balance, String customerName, String email, String phone) {
+        System.out.println("Account constructor with parameters called");
+        this.number = number;
+        this.balance = balance;
+        this.customerName = customerName;
+        this.customerEmail = email;
+        this.customerPhone = phone; 
+    }
+
     public String getNumber() {
         return number;
     }
